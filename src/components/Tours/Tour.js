@@ -11,7 +11,7 @@ const getDefaultBcg = graphql`
     file(relativePath: { eq: "defaultBcg.jpeg" }) {
       childImageSharp {
         fluid {
-          ...GatsbyImageSharpFluid
+          ...GatsbyImageSharpFluid_tracedSVG
         }
       }
     }
